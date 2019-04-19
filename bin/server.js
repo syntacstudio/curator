@@ -14,4 +14,5 @@ app.listen(port,()=>{
 	console.log(`Curator Listen On port ${port}`)
 })
 */
+console.log("curator is live ");
 module.exports.handler = serverless(app);
