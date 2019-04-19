@@ -2,7 +2,7 @@
   "name": "curator",
   "version": "1.0.0",
   "description": "",
-  "main": "functions/server.js",
+  "main": "/server.js",
   "scripts": {
     "build": "netlify-lambda build bin",
     "test": "echo \"Error: no test specified\" && exit 1"
