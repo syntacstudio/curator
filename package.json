@@ -2,8 +2,9 @@
   "name": "curator",
   "version": "1.0.0",
   "description": "",
-  "main": "bin/server.js",
+  "main": "functions/server.js",
   "scripts": {
+    "build": "netlify-lambda build express",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,6 +13,7 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
+    "netlify-lambda": "^1.4.5",
     "serverless-http": "^2.0.0"
   }
 }
