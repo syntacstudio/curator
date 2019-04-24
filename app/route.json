@@ -1,9 +1,9 @@
 [
 	{
 		"route" :  "/",
-		"file"  :  "demo.edge"
+		"file"  :  "async.edge"
 	} , {
-		"route" :  "/api/v1/hello",
-		"file"  :  "demo.json"
+		"route" :  "/bgst",
+		"file"  :  "index.edge"
 	}
 ]

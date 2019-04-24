@@ -61,11 +61,11 @@ const registerData = async () => {
 const getFile = async (file) => {
 	var data;
 	try {
-		data = (file.includes(".html") || file.includes(".edge") ? fs.readFileSync(file).toString("utf8") : fs.readFileSync(file) ) ;
+		data = (file.includes(".html") || file.includes(".edge")  || file.includes(".json") ? await fs.readFileSync(file).toString("utf8") : await fs.readFileSync(file) ) ;
 	} catch(e) {
 		data =  null;
 	}
-   return data;
+   return  data;
 }
 // write file 
 const writeFile = async (file, name) => {
@@ -86,18 +86,22 @@ const writeFile = async (file, name) => {
 const replace = async (file, mode, name) => {
     const replacement = JSON.parse(fs.readFileSync(getDir("app/helpers/helpers.json")).toString("utf8"));
     let rendered = file;
-    if (mode == "before") {
-        replacement.forEach((element, index) => {
-            if (element["mode"] == "all" || element["mode"] == process.env.APP_MODE) {
-                if (element["subdir"] == "all" || name.includes(element["subdir"]) == true) {
-                    if (element["compile"] == "all" || element["compile"] == mode) {
-                        rendered = rendered.split(element["find"]).join(element["replace"])
+    try {
+        if (mode == "before") {
+            replacement.forEach((element, index) => {
+                if (element["mode"] == "all" || element["mode"] == process.env.APP_MODE) {
+                    if (element["subdir"] == "all" || name.includes(element["subdir"]) == true) {
+                        if (element["compile"] == "all" || element["compile"] == mode) {
+                            rendered = rendered.split(element["find"]).join(element["replace"])
+                        }
+
                     }
-
                 }
-            }
-        });
+            });
 
+        }
+    } catch(e) {
+        //console.log(e);
     }
     return rendered;
 }
@@ -153,10 +157,9 @@ const renderAll = async ()=>{
 const resFile =  async (path)=>{
 	var route  = await createRoute();
 	asdata  = null;
-	
 	for (var i = 0;  i < route.length; ++i) {
 		if (route[i]["route"] === path.toLowerCase()) {
-			return  {"status":200,"data": await compile ( await getFile(getDir(process.env.COMPILE_DIR+"/"+route[i]["file"])),getDir(process.env.COMPILE_DIR+route[i]["file"]))}
+			return  {"status":200,"data": await compile ( await getFile(getDir(process.env.COMPILE_DIR+"/"+route[i]["file"])),getDir(process.env.COMPILE_DIR+"/"+route[i]["file"]))}
 		}
 	}
 	return await createErr();
@@ -213,7 +216,7 @@ const getasset  = async (path)=>{
   	   	 }
   	   });
   	} else {
-  		router  =  await getFile(getDir("app/route.json"));
+  		router  =  JSON.parse(await getFile(getDir("app/route.json")));
   	}
   	return router
  }

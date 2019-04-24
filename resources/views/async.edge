@@ -1,0 +1,435 @@
+@layout('layouts.app')
+@section('meta')
+<meta name="page" content="index.html" initial="index">
+@endsection
+@section('js')
+<script src="{{asset('js/jquery.paroller.js')}}" type="text/javascript" ></script>
+<script src="{{asset('js/slick.js')}}" type="text/javascript" ></script>
+<script src="{{asset('js/home.js')}}" type="text/javascript" ></script>
+@endsection
+@section('css')
+<link rel="stylesheet" type="text/css" href="{{asset('css/slick.css')}}">
+@endsection
+@section('helpers')
+{{title('Beranda')}}
+@endsection
+@section('component')
+@include('components/to-top.edge')
+@endsection
+@section('content')
+<!-- banner -->
+<section class="banner banner-home">
+	<div class="container">
+		<div id="banner-carousel" class="banner-list-carousel-home">
+			<!-- banenr produk 2-->
+			<div class="list-item">
+				<div class="banner-list-product banner-list banner-parent" data-status="side" data-color="blue" >
+					<div class="list-banner-obj">
+						<div class="banner-text mg-l-auto mg-r-auto">
+							<div class="wd-100-p pg-b-10">
+								<h3 class="color-white-dark font-light">KOLEKSI TERBAIK</h3>
+							</div>
+							<div class="wd-100-p pg-b-10">
+								<h1 class="title font-light color-dark">Anjasmara</h1>
+							</div>
+							<div class="wd-100-p pg-b-20">
+								<p class="color-white-dark">
+									Bahan-bahan pilihan berkualitas terbaik dan tentu saja dibuat oleh pembuat profesional yang mengutamakan kualitas dan kenyamanan pelanggan
+								</p>
+							</div>
+							<div class="wd-100-p pg-y-20 ">
+								<div class="color-spectate">
+									<ul>
+										<li>
+											<button class="select-image-preview-banner"  data-color="pink" style="background-color:#AC2C93" data-front="assets/images/products/malang-front-pink.png" data-side="assets/images/products/malang-side-pink.png">
+											<span class="none">PURPLE</span>
+											</button>
+										</li>
+										<li class="pg-l-15">
+											<button class="select-image-preview-banner"  data-color="pink" style="background-color: #36AC6E" data-front="assets/images/products/malang-front-green.png" data-side="assets/images/products/malang-side-green.png">
+											<span class="none">GREEEN</span>
+											</button>
+										</li>
+										<li class="pg-l-15">
+											<button class="select-image-preview-banner active"  data-color="blue"  style="background-color: #5886C1" data-color="#5886C1"  data-color="#AC2C93" data-front="assets/images/products/malang-front-blue.png" data-side="assets/images/products/malang-side-blue.png">
+											<span class="none">BLUE</span>
+											</button>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="clear"></div>
+							<div class="wd-100-p pg-t-10">
+								<a href="products.html" class="button button-line-primary pg-x-40 rounded-50 color-primary">LIHAT PRODUK</a>
+							</div>
+						</div>
+					</div>
+					<div class="list-banner-obj">
+						<div class="banner-preview-previewer">
+							<div class="primary-image">
+								<div class="parent-primary">
+									<img data-src="assets/images/products/malang-side-blue.png" alt="" class="preview-full">
+								</div>
+							</div>
+							<div class="secondary-image">
+								<div class="parent-secondary preview-selector-mode pointer">
+									<img data-src="assets/images/products/malang-front-blue.png" alt="" class="pointer">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--ane banner produk 2-->
+			<!-- banner produk 1 --->
+			<div class="list-item">
+				<div class="banner-list-product banner-list banner-parent" data-status="side" data-color="blue" >
+					<div class="list-banner-obj">
+						<div class="banner-text mg-l-auto mg-r-auto">
+							<div class="wd-100-p pg-b-10">
+								<h3 class="color-white-dark font-light">KOLEKSI TERBAIK</h3>
+							</div>
+							<div class="wd-100-p pg-b-10">
+								<h1 class="title font-light color-dark">Bukitunggul</h1>
+							</div>
+							<div class="wd-100-p pg-b-20">
+								<p class="color-white-dark">
+									Koleksi furnitur terbaik dari kami yang berkualitas dan sudah diakui Nasional maupun di kancah Internasional
+								</p>
+							</div>
+							<div class="wd-100-p pg-y-20 ">
+								<div class="color-spectate">
+									<ul>
+										<li>
+											<button class="select-image-preview-banner"  data-color="pink" style="background-color:#AC2C93" data-front="assets/images/products//seminyak-back-purple.png" data-side="assets/images/products/seminyak-side-purple.png">
+											<span class="none">PURPLE</span>
+											</button>
+										</li>
+										<li class="pg-l-15">
+											<button class="select-image-preview-banner"  data-color="green"  style="background-color:#36AC6E" data-color="#36AC6E"  data-front="assets/images/products/seminyak-back-green.png" data-side="assets/images/products/seminyak-side-green.png">
+											<span class="none">GREEEN</span>
+											</button>
+										</li>
+										<li class="pg-l-15">
+											<button class="select-image-preview-banner active"  data-color="blue"  style="background-color: #EBC99B" data-color="#5886C1"  data-color="#AC2C93" data-front="assets/images/products/seminyak-back-gold.png" data-side="assets/images/products/seminyak-side-gold.png">
+											<span class="none">BLUE</span>
+											</button>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="clear"></div>
+							<div class="wd-100-p pg-t-10">
+								<a href="products.html" class="button button-line-primary pg-x-40 rounded-50 color-primary">LIHAT PRODUK</a>
+							</div>
+						</div>
+					</div>
+					<div class="list-banner-obj">
+						<div class="banner-preview-previewer">
+							<div class="primary-image">
+								<div class="parent-primary">
+									<img data-src="assets/images/products/seminyak-side-gold.png" alt="" class="preview-full">
+								</div>
+							</div>
+							<div class="secondary-image">
+								<div class="parent-secondary preview-selector-mode pointer">
+									<img data-src="assets/images/products/seminyak-back-gold.png" data-side="assets/images/products/ruang_tamu/item-4/seminyak-side-gold.png" alt="" class="pointer">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> -->
+			<!-- end banner produk 1-->
+			<!--- banner 3d -->
+			<div class="list-item">
+				<div class="banner-list-product banner-list banner-parent" data-status="side" data-color="blue" >
+					<div class="list-banner-obj">
+						<div class="banner-text mg-l-auto mg-r-auto">
+							<div class="wd-100-p pg-b-10">
+								<h3 class="color-white-dark font-light">FITUR 3D</h3>
+							</div>
+							<div class="wd-100-p pg-b-10">
+								<h1 class="title font-light color-dark">Merancang Desain 3D</h1>
+							</div>
+							<div class="wd-100-p pg-b-20">
+								<p class="color-white-dark">
+									Dengan fitur 3D yang kami sediakan, Anda dapat mendesain furnitur sesuai dengan keinginan dan kebutuhan Anda
+								</p>
+							</div>
+							<div class="clear"></div>
+							<div class="wd-100-p pg-t-20">
+								<a href="chair.html" class="button button-line-primary pg-x-40 rounded-50 color-primary">MULAI MERANCANG</a>
+							</div>
+						</div>
+					</div>
+					<div class="list-banner-obj">
+						<div class="banner-preview-previewer mg-l-auto mg-r-auto">
+							<img src="assets/images/banners/3d-page-mockup.png" class="wd-100-p image-3d-landing mg-l-auto " alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="list-item">
+				<div class="banner-list-product banner-list banner-parent" data-status="side" data-color="blue" >
+					<div class="list-banner-obj not-order">
+						<div class="banner-preview-previewer mg-l-auto mg-r-auto">
+							<img src="assets/images/banners/side-banner.png" class="wd-100-p image-3d-landing mg-r-auto" alt="">
+						</div>
+					</div>
+					<div class="list-banner-obj not-order">
+						<div class="banner-text mg-l-auto mg-r-auto">
+							<div class="wd-100-p pg-b-10">
+								<h3 class="color-white-dark font-light">PROMOSI PRODUK</h3>
+							</div>
+							<div class="wd-100-p pg-b-10">
+								<h1 class="title font-light color-dark">Banyak Promo Menarik</h1>
+							</div>
+							<div class="wd-100-p pg-b-20">
+								<p class="color-white-dark">
+									Di kayuku anda bisa mendapatkan potongan harga yang menarik, jadi tunggu apalagi ayo belanja di sini
+								</p>
+							</div>
+							<div class="clear"></div>
+							<div class="wd-100-p pg-t-20">
+								<a href="promotion.html" class="button button-line-primary pg-x-40 rounded-50 color-primary">Lihat promo</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="nav-carousel-nav  carousel-nav-on-desktop prev  clear mg-x-auto pg-y-20">
+			<button class=" carousel-banner-button back-on-filter on-prev-banner carousel-prev-buttom navigate-carousel  float-left">
+			<div class="none">prev</div>
+			<img src="assets/images/icons/chev-left.svg" alt="" height="30">
+			</button>
+		</div>
+		<div class="nav-carousel-nav  carousel-nav-on-desktop  next clear mg-x-auto pg-y-20">
+			<button class="carousel-banner-button  back-on-filter on-next-banner carousel-next-buttom navigate-carousel  mg-l-20 float-left">
+			<img src="assets/images/icons/chev-right.svg" alt="" height="30">
+			<div class="none">next</div>
+			</button>
+		</div>
+	</div>
+	
+	<div class="nav-carousel-nav  carousel-nav-on-mobile  clear mg-x-auto pg-y-20">
+		<button class=" carousel-banner-button on-prev-banner carousel-prev-buttom navigate-carousel navigatre-primary float-left"><span></span><div class="none">prev</div></button>
+		<button class="carousel-banner-button  on-next-banner carousel-next-buttom navigate-carousel navigatre-primary mg-l-20 float-left"><span></span><div class="none">next</div></button>
+	</div>
+</section>
+<!-- end banner-->
+<!-- feature --->
+<section class="feature overflow-hidden">
+	<div class="container">
+		<div class="wd-100-p flex">
+			<div class="intitle mg-x-auto">
+				<h1 class="text-center font-light color-dark title">Fitur kami</h1>
+			</div>
+		</div>
+		<div class="clear feature-list-parent mg-t-50">
+			<div class="list-feature ">
+				<div class="clear">
+					<div class="flex">
+						<div class="feature-icon  block ">
+							<img data-src="assets/images/features/icon-chair-dark.svg" class="before-hover" alt="">
+							<img data-src="assets/images/features/icon-chair-light.svg" class="after-hover" alt="">
+						</div>
+					</div>
+					<div class="product-title">
+						<h2 class="text-align-center title font-light">
+						Merancang Furniture
+						</h2>
+					</div>
+					<div class="product-description">
+						<p class="text-align-center color-white-dark">
+							Anda dapat Merancang furniture yang anda inginkan seperti kursi, meja, sofa dan lainnya.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="list-feature">
+				<div class="clear">
+					<div class="flex">
+						<div class="feature-icon  block ">
+							<img data-src="assets/images/features/3d-basis-dark.svg" class="before-hover" alt="">
+							<img data-src="assets/images/features/3d-basis-light.svg" class="after-hover" alt="">
+						</div>
+					</div>
+					<div class="product-title">
+						<h2 class="text-align-center title font-light">
+						Perancangan 3D
+						</h2>
+					</div>
+					<div class="product-description">
+						<p class="text-align-center color-white-dark">
+							Merancang desain furniture kami dengan fitur 3d jadi lebih nyata, nyaman dan mudah!
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="list-feature">
+				<div class="clear">
+					<div class="flex">
+						<div class="feature-icon  block ">
+							<img data-src="assets/images/features/design-consul-dark.svg" class="before-hover" alt="">
+							<img data-src="assets/images/features/design-consul-light.svg" class="after-hover" alt="">
+						</div>
+					</div>
+					<div class="product-title">
+						<h2 class="text-align-center title font-light">
+						Konsultasi Desain
+						</h2>
+					</div>
+					<div class="product-description">
+						<p class="text-align-center color-white-dark">
+							Bingung dengan desain furniture seperti apa yang anda inginkan? Para Pengrajin kami akan menjawab keluhan anda
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="list-feature">
+				<div class="clear">
+					<div class="flex">
+						<div class="feature-icon  block ">
+							<img data-src="assets/images/features/option-variant-dark.svg" class="before-hover" alt="">
+							<img data-src="assets/images/features/option-variant-light.svg" class="after-hover" alt="">
+						</div>
+					</div>
+					<div class="product-title">
+						<h2 class="text-align-center title font-light">
+						Banyak Variasi Pilihan
+						</h2>
+					</div>
+					<div class="product-description">
+						<p class="text-align-center color-white-dark">
+							Anda Dapat berimajinasi sesuai nalar anda dengan varian yang telah kami sediakan .
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</section>
+<!-- end  -->
+<!--  psormotion -->
+<section class="promotion overflow-hidden">
+<div class="wd-100-p flex ">
+	<div class="intitle mg-x-auto overflow-hidden ">
+		<h1 class="text-center font-light color-dark title">&nbsp;&nbsp;&nbsp;Promo&nbsp;&nbsp;&nbsp;</h1>
+	</div>
+</div>
+<div class="content block overflow-hidden">
+	<div class="container">
+		<div class="promote clear">
+			<div class="content block">
+				<div class="snipg-arg-promote relative">
+					<div id="carousel-promote" class="carousel-promote">
+						<!-- handling with hadlebars -->
+					</div>
+					<div class="carousel-content-nav  bg-wood background-dark-c">
+						<div class="promotion-interfaces wd-100-p text-align-center  " id="promotion-interfaces">
+							<h1 class="center font-light color-white">UP TO</h1>
+							<h1 class="center font-light opensans-bold color-white" >60% OFF</h1>
+							<h3 class="center font-light">
+							<a href="products.html" class="text-decoration-none color-white">Check it Out!</a>
+							</h3>
+						</div>
+						<div class="carousel-content-event ">
+							<div class="nav-carousel-nav block clear mg-x-auto">
+								<button class="on-prev-promote carousel-prev-buttom navigate-carousel float-left"><span></span><div class="none">prev</span></div>
+								<button class="on-next-promote carousel-next-buttom navigate-carousel mg-l-20 float-left"><span></span><div class="none">next</div></button>
+							</div>
+							<div class="nav-carousel-dot  mg-x-auto  block">
+								<div id="carousel-promote-dot"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="clear"></div>
+	<div class="flex  justify-content-center align-items-center pg-t-50  pg-b-50 ">
+		<a href="promotion.html" class="button button-line-primary pg-x-40 rounded-50 color-primary">LIHAT SEMUA PROMO</a>
+	</div>
+</section>
+<!-- product -->
+<section class="product-me ">
+	<div class="container">
+		<div class="flex wd-100-p">
+			<div class="mg-x-auto intitle static">
+				<h1 class="title font-light center color-dark">Produk Pilihan</h1>
+			</div>
+		</div>
+		<div class="flex wd-100-p justify-content-center tab-header">
+			<div class="list-of-nav">
+				<ul class="list-none clear" id="__tabulation_dinamic_menu">
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="product-page wd-100-p flex">
+		<div class="container" id="__tabulation_content">
+			<!-- ruang tamu produk -->
+			
+		</div>
+	</div>
+	<div class="container">
+		<div class="wd-100-p flex relative justify-content-center  pg-y-40 ">
+			<div class="inline-block mg-x-auto">
+				<a href="products.html" class="button button-line-primary mg-x-auto relative color-primary text-decoration-none rounded-100 pg-x-40 pg-y-10">LIHAT SEMUA</a>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="about flex">
+	<div class="container">
+		<div class="mg-x-auto about-spacer clear ">
+			<div class="float-left wd-50-p image-descp ">
+				<div class="coverage relative">
+					<img data-src="assets/images/components/background_ill.svg" alt="" class="hw-data-f paroller" data-paroller-factor="0.1" data-paroller-factorXs="0.1" data-paroller-direction="vertical">
+					<img data-src="assets/images/components/custom-desig_illn.png" alt="" class="hw-data-s paroller" data-paroller-factor="0.2" data-paroller-factorXs="0.1" data-paroller-direction="vertical">
+					<img data-src="assets/images/components/vector_ill.svg" alt="" class="hw-data-h paroller" data-paroller-factor="-0.1" data-paroller-factorXs="0.1" data-paroller-direction="vertical">
+					<img data-src="assets/images/components/online_ill.svg" alt="" class="hw-data-t paroller" data-paroller-factor="0.3" data-paroller-factorXs="0.1" data-paroller-direction="vertical">
+				</div>
+			</div>
+			<div class="float-left wd-50-p desc">
+				<div class="intitle alterspace left mg-b-15">
+					<h1 class="text-center font-light color-dark title">Mendesain Dan Menjual</h1>
+				</div>
+				<p class="text-left color-dark">
+					Gunakan fitur 3D desain Kayuku untuk merancang furniture sesuai keinginan anda dan anda dapat menjualnya agar mendapatkan keuntungan.
+				</p>
+				<div class="flex mg-t-50">
+					<a href="how-it-work.html" class="button button-line-primary  relative color-primary text-decoration-none rounded-100 pg-x-40 pg-y-10">SELENGKAPNYA</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="blog">
+	<div class="container">
+		<div class="clear">
+			<div class="blog-uncreate float-left">
+				<div class="spacer-component">
+					<div class="intitle alterspace left ">
+						<h1 class="text-center font-light color-dark title">Blog Kami</h1>
+					</div>
+					<p class="left color-dark mg-t-10">
+						Baca berita berita menarik tentang furniture dan seputar kayuku dan kegiatannya di dalam negeri maupun luar negeri
+					</p>
+					<div class="flex mg-t-50">
+						<a href="article.html" id="banner-url" class="button button-view-new button-line-primary  rounded-30 pg-x-50 pg-y-10 text-decoration-none color-primary">SELENGKAPNYA</a>
+					</div>
+				</div>
+			</div>
+			<div class="blog-list-parent float-left">
+				<div class="clear clear-blog" id="__home_blog">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+@endsection
