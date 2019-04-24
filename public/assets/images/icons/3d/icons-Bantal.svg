@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="27px" viewBox="0 0 27 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>icons-Bantal</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icons-Bantal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" x="0" y="0" width="27" height="27"></rect>
+        <path d="M8.76237797,6 L19.2376209,6 C20.2929615,6 21.1666941,6.81999127 21.2335979,7.87320902 L21.9958771,19.873209 C22.0659018,20.9755567 21.2290388,21.9259522 20.1266911,21.995977 C20.0844806,21.9986583 20.0421957,22 19.9999001,22 L8.00009875,22 C6.89552925,22 6.00009875,21.1045695 6.00009875,20 C6.00009875,19.9577044 6.00144043,19.9154195 6.00412178,19.873209 L6.766401,7.87320902 C6.83330484,6.81999127 7.70703739,6 8.76237797,6 Z" id="Rectangle-Copy" stroke="#C18951" stroke-linejoin="round"></path>
+        <circle id="Oval" stroke="#C18951" cx="19.5" cy="19.5" r="1"></circle>
+        <circle id="Oval-Copy" stroke="#C18951" cx="8.5" cy="19.5" r="1"></circle>
+        <circle id="Oval-Copy-2" stroke="#C18951" cx="9.5" cy="8.5" r="1"></circle>
+        <circle id="Oval-Copy-3" stroke="#C18951" cx="18.5" cy="8.5" r="1"></circle>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="27px" viewBox="0 0 27 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>shortlink</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="shortlink">
+            <rect id="Rectangle-Copy-3" x="0" y="0" width="27" height="27"></rect>
+            <g id="link-2" transform="translate(13.500000, 13.500000) rotate(-45.000000) translate(-13.500000, -13.500000) translate(-1.000000, 7.000000)" stroke="#333333">
+                <path d="M18.56,0 L22.475,0 C24.2055376,2.30926389e-15 25.8651969,0.684819462 27.0888717,1.90380592 C28.3125466,3.12279238 29,4.77609282 29,6.5 C29,10.0898509 26.078658,13 22.475,13 L18.56,13 M10.44,13 L6.525,13 C4.7944624,13 3.13480312,12.3151805 1.91112825,11.0961941 C0.687453383,9.87720762 1.44884105e-16,8.22390718 0,6.5 C-2.89768209e-16,2.91014913 2.92134201,0 6.525,0 L10.44,0" id="Shape"></path>
+                <path d="M9.28,6.5 L19.72,6.5" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>

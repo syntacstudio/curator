@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="105px" height="80px" viewBox="0 0 105 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>option-variant-dark</title>
+    <desc>Created with Sketch.</desc>
+    <g id="option-variant-dark" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <rect id="Rectangle-Copy-49" x="0" y="0" width="105" height="80"></rect>
+            <rect id="Rectangle" stroke="#333333" stroke-width="2" stroke-linejoin="round" x="8.67763907" y="11" width="26" height="34"></rect>
+            <circle id="Oval-Copy-6" fill="#C18951" cx="53" cy="28" r="5"></circle>
+            <circle id="Oval-Copy-7" fill="#C18951" cx="83.6776391" cy="21.2095035" r="5"></circle>
+            <circle id="Oval-Copy-9" fill="#C18951" cx="83.6776391" cy="34.2095035" r="5"></circle>
+            <rect id="Rectangle-Copy" stroke="#333333" stroke-width="2" stroke-linejoin="round" x="40" y="11" width="26" height="34"></rect>
+            <rect id="Rectangle-Copy-11" stroke="#333333" stroke-width="2" stroke-linejoin="round" x="70.6776391" y="11" width="26" height="34"></rect>
+            <path d="M51.6289444,49.1250607 L61.1262063,50.6709286 C63.6972467,51.0894165 65.5162504,53.4117187 65.3067278,56.008155 L64.1776391,70 L42.5,70 L40.2096868,56.0007398 C39.9600117,54.4746313 40.9947654,53.0350744 42.5208738,52.7853993 C42.6703246,52.7609488 42.8215128,52.7486631 42.9729505,52.7486631 L45.6289444,52.7486631 L45.6289444,40 C45.6289444,38.3431458 46.9720901,37 48.6289444,37 C50.2857986,37 51.6289444,38.3431458 51.6289444,40 L51.6289444,49.1250607 Z" id="Combined-Shape" fill="#C18951"></path>
+            <rect id="Rectangle" stroke="#333333" stroke-width="2" stroke-linejoin="round" x="42.1725237" y="70" width="22" height="9" rx="1"></rect>
+        </g>
+    </g>
+</svg>

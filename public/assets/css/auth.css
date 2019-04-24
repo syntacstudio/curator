@@ -1,0 +1,364 @@
+/**
+** this for first setup
+**/
+/**
+** setup fonts
+**/
+/** 
+** raleway
+**/
+/*open sans */
+:root {
+  --body-color:  #fdf3ee;
+}
+
+.parent-auth {
+  height: 100vh;
+  overflow: hidden;
+  clear: both;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+          align-items: center;
+  overflow-y: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .parent-auth {
+    display: block;
+  }
+}
+
+.parent-auth .auth-list {
+  -ms-flex: 0 0 50%;
+  -webkit-box-flex: 0;
+          flex: 0 0 50%;
+  max-width: 50%;
+}
+
+@media screen and (max-width: 980px) {
+  .parent-auth .auth-list {
+    -ms-flex: unset;
+    -webkit-box-flex: unset;
+            flex: unset;
+    max-width: 100%;
+  }
+  .parent-auth .auth-list:last-child {
+    display: none;
+  }
+}
+
+.parent-auth .auth-data {
+  position: relative;
+}
+
+@media screen and (min-width: 980px) {
+  .parent-auth .auth-data {
+    overflow-y: unset !important;
+    padding-top: 40px;
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .parent-auth .auth-data {
+    padding-top: 20px !important;
+  }
+}
+
+.parent-auth .auth-bg {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+          align-items: center;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../images/backgrounds/bg-contact.jpg);
+  background-repeat: no-repeat;
+}
+
+.parent-auth .auth-parental {
+  max-width: 430px;
+  min-width: 430px;
+  margin-left: auto;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .parent-auth .auth-parental {
+    min-width: unset !important;
+  }
+}
+
+.auth-logo {
+  position: absolute;
+  top: -50px;
+  left: -50px;
+}
+
+@media screen and (max-width: 768px) {
+  .auth-logo {
+    position: relative;
+    top: -10px;
+    left: 0;
+    margin-right: 20px;
+  }
+}
+
+.validator-component {
+  width: 100%;
+  display: block;
+  position: relative;
+}
+
+.validator-component.focus:after {
+  width: 100% !important;
+}
+
+.validator-component.fail:before {
+  background-color: var(--fail) !important;
+}
+
+.validator-component input, .validator-component textarea, .validator-component select {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 15px 10px;
+  color: var(--dark);
+  font-size: 16px;
+  position: relative;
+  resize: none;
+  border: 0;
+  cursor: pointer;
+  cursor: unset !important;
+  background-color: var(--transparent);
+  border: 1px solid var(--transparent);
+}
+
+.validator-component input:focus, .validator-component textarea:focus, .validator-component select:focus {
+  outline: 0;
+}
+
+.validator-component input::-webkit-input-placeholder, .validator-component textarea::-webkit-input-placeholder, .validator-component select::-webkit-input-placeholder {
+  color: var(--white-dark);
+}
+
+.validator-component input::-moz-placeholder, .validator-component textarea::-moz-placeholder, .validator-component select::-moz-placeholder {
+  color: var(--white-dark);
+}
+
+.validator-component input:-ms-input-placeholder, .validator-component textarea:-ms-input-placeholder, .validator-component select:-ms-input-placeholder {
+  color: var(--white-dark);
+}
+
+.validator-component input:-moz-placeholder, .validator-component textarea:-moz-placeholder, .validator-component select:-moz-placeholder {
+  color: var(--white-dark);
+}
+
+.validator-component input.space-padding, .validator-component textarea.space-padding, .validator-component select.space-padding {
+  padding: 7px 10px !important;
+}
+
+.validator-component.no-border:before {
+  opacity: 0 !important;
+}
+
+.validator-component:after {
+  height: 2px;
+  width: 0%;
+  content: "";
+  z-index: 2;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  -webkit-transition: .2s ease;
+  transition: .2s ease;
+  background: var(--primary);
+}
+
+.validator-component:before {
+  height: 2px;
+  width: 100%;
+  content: "";
+  z-index: 2;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.button-login {
+  height: 45px;
+  width: 170px;
+}
+
+@media screen and (max-width: 768px) {
+  .button-login {
+    width: 100% !important;
+  }
+}
+
+.button-login-auth {
+  height: 45px;
+  max-height: 45px;
+  padding: 0 !important;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+          align-items: center;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+
+.button-login-auth:hover {
+  background-color: var(--transparent) !important;
+}
+
+.auth-parter .part-auth {
+  float: left;
+}
+
+.auth-parter .part-auth:nth-child(even) {
+  width: 150px;
+}
+
+.auth-parter .part-auth:nth-child(odd) {
+  width: calc(50% - 75px);
+  text-align: center;
+}
+
+.login-auth {
+  width: 50%;
+  float: left;
+}
+
+.login-auth:last-child {
+  padding-left: 10px;
+}
+
+.login-auth:first-child {
+  padding-right: 10px;
+}
+
+.login-auth.part {
+  width: 100px;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .login-auth.part {
+    width: 60px !important;
+    font-size: 14px !important;
+  }
+}
+
+.reg-agrement {
+  width: calc(100% - 170px);
+}
+
+@media screen and (max-width: 768px) {
+  .reg-agrement {
+    width: 100% !important;
+    padding-bottom: 20px;
+  }
+}
+
+.reg-agrement-list:first-child {
+  width: 30px;
+}
+
+.reg-agrement-list:last-child {
+  width: calc(100% - 30px);
+}
+
+.url-rules {
+  height: 100vh;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+          align-items: center;
+  -ms-flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+}
+
+.auth-logo {
+  /*
+	@include breakpoint-down(md) {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}*/
+}
+
+.auth-logo img {
+  max-height: 50px;
+}
+
+iframe {
+  display: none !important;
+  opacity: 0 !important;
+}
+
+.select2-selection--multiple {
+  border: unset !important;
+}
+
+.select2-results__option {
+  color: var(--white-dark);
+}
+
+.select2-selection__choice {
+  color: var(--primary) !important;
+}
+
+.select2-selection__choice {
+  border-radius: 100px !important;
+  padding: 0px 10px !important;
+  border: 1px solid var(--primary) !important;
+  background-color: #EBE1D7 !important;
+  font-size: 11px !important;
+}
+
+.select2-container {
+  padding-bottom: 5px;
+  min-height: unset !important;
+}

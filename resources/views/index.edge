@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+	<ul>
+	@each(item  in data["user"] )
+	<li>
+		{{item["fname"]}}
+		{{item["lname"]}}
+	</li>
+	@endeach
+</ul>
+<ol>
+	@each(item  in data["cake"] )
+	<li>
+		{{item["fname"]}}
+		|| ||
+		{{item["lname"]}}
+	</li>
+	@endeach
+</ol>
+	<div id="demo">
+		<ul></ul>
+	</div>
+</body>
+<script>
+	(async ()=>{
+		fetch("api/v2/demo").then(async (data)=>{
+			data  = await data.json();
+			var temp  =  " ";
+			await data.forEach(async (item,key)=>{
+				temp =  temp + "<li><h2>"+key+"_"+item["name"]+"</h2></li>";
+			})
+			document.getElementById("demo").innerHTML = temp;
+			
+		})
+	})()
+	
+</script>
+</html>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="27px" viewBox="0 0 27 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>icons-kotak</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icons-kotak" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" x="0" y="0" width="27" height="27"></rect>
+        <g id="Group" transform="translate(13.292893, 13.500000) rotate(45.000000) translate(-13.292893, -13.500000) translate(0.292893, 0.500000)" stroke="#C18951" stroke-linejoin="round">
+            <rect id="Rectangle" transform="translate(13.000000, 13.000000) rotate(45.000000) translate(-13.000000, -13.000000) " x="4" y="4" width="18" height="18" rx="1"></rect>
+        </g>
+    </g>
+</svg>

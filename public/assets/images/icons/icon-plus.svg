@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="27px" viewBox="0 0 27 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>icon-plus</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon-plus" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" x="0" y="0" width="27" height="27"></rect>
+        <g id="alert-circle-(1)" transform="translate(13.000000, 14.000000) rotate(45.000000) translate(-13.000000, -14.000000) translate(0.000000, 1.000000)" stroke="#C18951" stroke-width="3">
+            <path d="M13.1,0.182840728 L13.1,25.1929976" id="Path"></path>
+            <path d="M13.1,0 L13.1,25" id="Path-Copy" transform="translate(13.100000, 12.500000) rotate(-90.000000) translate(-13.100000, -12.500000) "></path>
+        </g>
+    </g>
+</svg>

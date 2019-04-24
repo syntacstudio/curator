@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="18px" viewBox="0 0 17 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Path@2x</title>
+    <desc>Created with Sketch.</desc>
+    <g id="main" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Chat" transform="translate(-1063.000000, -824.000000)" stroke="#BFBFBF" stroke-width="1.5">
+            <g id="chat-close-copy-3" transform="translate(844.000000, 505.000000)">
+                <g id="paperclip" transform="translate(220.000000, 320.000000)">
+                    <path d="M14.58,7.5375 L7.6875,14.43 C5.92916343,16.1883366 3.07833657,16.1883366 1.32,14.43 C-0.438336572,12.6716634 -0.438336572,9.82083657 1.32,8.0625 L8.2125,1.17 C9.38472439,-0.0022243517 11.2852756,-0.00222433754 12.4575,1.17000003 C13.6297243,2.3422244 13.6297244,4.24277561 12.4575,5.415 L5.5575,12.3075 C4.97138781,12.8936122 4.02111219,12.8936122 3.435,12.3075 C2.84888781,11.7213878 2.84888781,10.7711122 3.435,10.185 L9.8025,3.825" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

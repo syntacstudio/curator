@@ -1,0 +1,33 @@
+<div class="auth-header relative">
+	<a href="index.html" class="auth-logo float-left">
+		<img src="assets/images/logo.png" alt="">
+	</a>
+	<div class="float-left">
+		<h1 class="left  clear">
+		@if(active == "login" ||  active == "register" )
+		<div class="float-left">
+			@if(active == "login")
+			<a href="login.html" class=" auth-tab title text-decoration-none   color-dark font-normal ">Masuk</a>
+			@else
+			<a href="login.html" class=" auth-tab title text-decoration-none   color-white-dark font-normal ">Masuk</a>
+			@endif
+		</div>
+		<div class="float-left mg-l-15">
+			@if(active == "register")
+			<a href="register.html" class="auth-tab title text-decoration-none color-dark font-normal ">Daftar</a>
+			@else
+			<a href="register.html" class="auth-tab title text-decoration-none color-white-dark font-normal ">Daftar</a>
+			@endif
+		</div>
+		@elseif(active == "contact")
+		<h1 class="left clear title color-dark font-light">
+		Hubungi Kami
+		</h1>
+		@else
+		<h1 class="left clear title color-dark font-light">
+			{{active}}
+		</h1>
+		@endif
+	</div>
+	</h1>
+</div>

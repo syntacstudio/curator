@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="27px" viewBox="0 0 27 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>report</title>
+    <desc>Created with Sketch.</desc>
+    <g id="report" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" x="0" y="0" width="27" height="27"></rect>
+        <g id="alert-circle-(1)" transform="translate(2.000000, 2.000000)">
+            <circle id="Oval" stroke="#C18951" stroke-width="3" cx="11.5" cy="11.5" r="11.5"></circle>
+            <path d="M12.6279297,13.7373047 L10.4833984,13.7373047 L10.0351562,5.15039062 L13.0761719,5.15039062 L12.6279297,13.7373047 Z M10,16.7431641 C10,16.2509741 10.1318346,15.8789075 10.3955078,15.6269531 C10.659181,15.3749987 11.0429662,15.2490234 11.546875,15.2490234 C12.0332056,15.2490234 12.4096666,15.3779284 12.6762695,15.6357422 C12.9428724,15.893556 13.0761719,16.2626929 13.0761719,16.7431641 C13.0761719,17.206057 12.9414076,17.5707994 12.671875,17.8374023 C12.4023424,18.1040052 12.0273462,18.2373047 11.546875,18.2373047 C11.054685,18.2373047 10.6738295,18.1069349 10.4042969,17.8461914 C10.1347643,17.5854479 10,17.2177758 10,16.7431641 Z" id="!" fill="#C18951" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

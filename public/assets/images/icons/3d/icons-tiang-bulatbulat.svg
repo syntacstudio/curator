@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="27px" viewBox="0 0 27 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>icons-tiang-bulatbulat</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icons-tiang-bulatbulat" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" x="0" y="0" width="27" height="27"></rect>
+        <g id="Group" transform="translate(14.000000, 13.500000) rotate(-40.000000) translate(-14.000000, -13.500000) translate(11.500000, 0.000000)" fill="#9A6836">
+            <circle id="Oval" cx="2.5" cy="3.5" r="2.5"></circle>
+            <circle id="Oval-Copy" cx="2.5" cy="8.5" r="2.5"></circle>
+            <circle id="Oval-Copy-3" cx="2.5" cy="13.5" r="2.5"></circle>
+            <circle id="Oval-Copy-2" cx="2.5" cy="18.5" r="2.5"></circle>
+            <circle id="Oval-Copy-4" cx="2.5" cy="23.5" r="2.5"></circle>
+            <polygon id="Rectangle" points="3.5 1.16157084e-14 3.25 27 1.75 27 1.5 0"></polygon>
+        </g>
+    </g>
+</svg>

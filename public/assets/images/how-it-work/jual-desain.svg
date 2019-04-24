@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150px" height="150px" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>jual-desain</title>
+    <desc>Created with Sketch.</desc>
+    <g id="jual-desain" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" stroke="#979797" fill="#D8D8D8" opacity="0" x="0.5" y="0.5" width="149" height="149"></rect>
+        <g id="Group" transform="translate(3.000000, 27.000000)">
+            <polygon id="Rectangle" fill="#C18951" transform="translate(71.610236, 43.929907) rotate(-40.000000) translate(-71.610236, -43.929907) " points="41.0829088 13.3934425 102.18938 13.3416257 102.137564 74.4663706 41.0310921 74.5181874"></polygon>
+            <polygon id="Rectangle" fill="#C18951" transform="translate(123.076303, 40.660025) rotate(8.000000) translate(-123.076303, -40.660025) " points="115.299776 21.1962111 130.843601 21.1999028 130.852831 60.1238393 115.309005 60.1201477"></polygon>
+            <circle id="Oval" fill="#C18951" cx="97.5" cy="76.5" r="10.5"></circle>
+            <circle id="Oval" fill="#C18951" cx="63" cy="111" r="7"></circle>
+            <circle id="Oval-Copy" fill="#C18951" cx="102" cy="111" r="7"></circle>
+            <g id="Group-2" transform="translate(0.000000, 10.000000)" stroke="#333333" stroke-linejoin="round">
+                <polyline id="Path-32" points="47.0389557 76.6666667 38.8582677 90 116.574803 90"></polyline>
+                <polygon id="Rectangle" points="23.3149606 16.6666667 141 16.6666667 117.696032 76.6666667 46.6189288 76.6666667"></polygon>
+                <path d="M29.65239,33.3333333 L134.338583,33.3333333" id="Path"></path>
+                <path d="M34.9724409,47.7777778 L129.34252,47.7777778" id="Path-Copy"></path>
+                <path d="M39.9685039,61.1111111 L123.791339,61.1111111" id="Path-Copy-2"></path>
+                <polyline id="Path-2" points="23.3149606 16.6666667 16.6535433 0 5.17696122e-15 0"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

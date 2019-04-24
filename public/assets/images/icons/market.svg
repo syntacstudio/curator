@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24">
+  <g id="Group" transform="translate(1 1)" opacity="0.8">
+    <path id="Rectangle" d="M4,3.5A4.1,4.1,0,0,0,6,1V0h9V1a4.2,4.2,0,0,0,2,2.5c1.5.676,4-.441,4-.441V13a2,2,0,0,1-2,2H2a2,2,0,0,1-2-2V3.5S2.466,4.194,4,3.5Z" transform="translate(1 7)" fill="none" stroke="#cdcdcd" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Rectangle-2" data-name="Rectangle" d="M3.5,0H20l3,7H0Z" fill="none" stroke="#cdcdcd" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Oval" d="M3.5,4A3.775,3.775,0,0,0,7,0H0A3.775,3.775,0,0,0,3.5,4Z" transform="translate(0 7)" fill="none" stroke="#cdcdcd" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Oval_Copy" data-name="Oval Copy" d="M3.5,4A3.775,3.775,0,0,0,7,0H0A3.775,3.775,0,0,0,3.5,4Z" transform="translate(8 7)" fill="none" stroke="#cdcdcd" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Oval_Copy_2" data-name="Oval Copy 2" d="M3.5,4A3.775,3.775,0,0,0,7,0H0A3.775,3.775,0,0,0,3.5,4Z" transform="translate(16 7)" fill="none" stroke="#cdcdcd" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+</svg>

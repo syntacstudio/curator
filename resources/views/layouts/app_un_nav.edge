@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		@include('layouts.head')
+		@!section('meta')
+		@!section('css')
+		<link rel="stylesheet" type="text/css" href="{{asset('css/component.css')}}">
+		<link rel="stylesheet" type="text/css" href="{{asset('css/style.css')}}">
+	</head>
+	<body class=" body autenticated-auth" id="body">
+		<div class="none hidden">
+			<img src="assets/images/gif/loader.svg" alt="">
+		</div>
+		<input type="text" id="url-components" class="url-components">
+		<header class="header-unset header-transaction" >
+			<div class="container overflow-hidden clear">
+				<div class="header-logo float-left">
+					<a href="index.html">
+						<img src="assets/images/logo.svg" alt="">
+					</a>
+				</div>
+				<div class="header-link float-right pg-y-5">
+					<a href="#" class="text-decoration-none color-white-dark open-popup" data-target="#popup-cancel-transaction">
+						<p class="text-align-left color-white-dark font-light">Batalkan Transaksi</p>
+					</a>
+				</div>
+			</div>
+			
+		</header>
+		<div class="main-content-action">
+			@!section('content')
+		</div>
+		<footer class="footer background-dark-c clear overflow-hidden pg-t-30 pg-b-10 footer-transaction">
+			<div class="container overflow-hidden clear">
+				<div class="header-logo float-left">
+					<a href="index.html">
+						<img src="assets/images/logo_inverse.svg" alt="">
+					</a>
+				</div>
+				<div class="header-link float-right">
+					<p class="text-align-left color-white font-light color-white">
+						&copy;2019 Kayuku.co Powered By FlipsFlops Team
+					</p>
+				</div>
+			</div>
+		</footer>
+		@include('components/modals/modals-cart')
+		@!section('component')
+	</body>
+	<script src="assets/js/jquery.js" type="text/javascript" ></script>
+	<script src="assets/js/jquery.lazy.js" type="text/javascript" ></script>
+	<script src="assets/js/jquery.paroller.js" type="text/javascript" ></script>
+	<script src="assets/js/public.js" type="text/javascript" ></script>
+	@!section('js')
+	<script src="assets/js/app.js" type="text/javascript" ></script>
+</html>

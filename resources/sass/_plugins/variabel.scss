@@ -1,0 +1,30 @@
+/**
+** this for first setup
+**/
+@import 'function';
+/**
+** setup fonts
+**/
+/** 
+** raleway
+**/
+/*open sans */
+
+:root {
+  --body-color :  #fdf3ee;
+}
+$colors: (
+  "primary"      : #C18951,
+  "white"        : #fff,
+  "secondary"    : #F6F6F6,
+  "transparent"  : rgba(0,0,0,0),
+  "grey"         : #ECECEC,
+  "white-dark"   : #999999,
+  "white-grey"   : #FBFBFB,
+  "dark"         : #555555,
+  "black"        : #000,
+  "darken"       : #333, 
+  "dark-c"       :#9A6836,
+  "white-footer" :#D9D9D9,
+  "fail"         :#FA3E3E,
+);

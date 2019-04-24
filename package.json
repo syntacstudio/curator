@@ -2,18 +2,22 @@
   "name": "curator",
   "version": "1.0.0",
   "description": "",
-  "main": "functions/server.js",
+  "main": "bin/server.js",
   "scripts": {
-    "build": "netlify-lambda build bin",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.4",
-    "netlify-lambda": "^1.4.5",
-    "serverless-http": "^2.0.0"
+    "chokidar": "^2.1.5",
+    "dotenv": "^7.0.0",
+    "edge.js": "^1.1.4",
+    "faye-websocket": "^0.11.1",
+    "fs-extra": "^7.0.1",
+    "html-formatter": "^0.1.9",
+    "mime": "^2.4.2",
+    "path": "^0.12.7",
+    "recursive-readdir-sync": "^1.0.6"
   }
 }

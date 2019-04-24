@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="27px" viewBox="0 0 27 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>icons-kaki</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icons-kaki" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" x="0" y="0" width="27" height="27"></rect>
+        <polyline id="Path" stroke="#C18951" stroke-width="1.29999995" stroke-linecap="round" stroke-linejoin="round" points="3 24.8 3 20.8 3 20.8 23 20.8 23 24.8"></polyline>
+        <polyline id="Path" stroke="#C18951" stroke-width="1.29999995" stroke-linecap="round" stroke-linejoin="round" points="6 24.8 6 20.8 6 20.8 20 20.8 20 24.8"></polyline>
+        <path d="M13.5,6 L13.5,20.5" id="Path-26" stroke="#C18951" stroke-width="1.29999995" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+</svg>

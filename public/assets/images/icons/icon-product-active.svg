@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="27px" viewBox="0 0 27 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>icon-product-active</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="icon-product-active" stroke="#C18951">
+            <g id="Group" transform="translate(2.000000, 2.000000)">
+                <path d="M3,1.61676228e-15 L23,1.77635684e-15 L23,23 L3,23 L3,23 C1.34314575,23 -3.24870395e-13,21.6568542 -3.25073302e-13,20 L-3.17159493e-13,17 L3,17 L3,1.61676228e-15 Z" id="Rectangle"></path>
+                <path d="M4.54747351e-13,17 L20,17 L20,19.9586187 C20,21.4251362 21.0602391,22.6767065 22.506803,22.9178005 L23,23 L3,23 C1.34314575,23 4.54950257e-13,21.6568542 4.54747351e-13,20 L4.54747351e-13,17 Z" id="Rectangle"></path>
+                <path d="M6.5,6 L19.5,6" id="Path-22"></path>
+                <path d="M6.5,9 L19.5,9" id="Path-22-Copy"></path>
+                <path d="M6.5,12 L13,12" id="Path-22-Copy-2"></path>
+            </g>
+        </g>
+    </g>
+</svg>

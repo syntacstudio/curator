@@ -1,0 +1,9 @@
+[
+	{
+		"route" : "/api/v1/demo",
+		"file" : "demo.json"
+	},{
+		"route" : "/api/v2/demo",
+		"file" : "demo.json"
+	}
+]

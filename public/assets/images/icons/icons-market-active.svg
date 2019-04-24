@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="27px" viewBox="0 0 27 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>icons-market-active</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons-market-active">
+            <rect id="Rectangle" x="0" y="0" width="27" height="27"></rect>
+            <g id="Group" transform="translate(2.000000, 3.000000)" stroke="#C18951">
+                <path d="M5,10.5 C6.02282955,10.0372914 6.68949621,9.20395806 7,8 L7,7 L11.5,7 L16,7 L16,8 C16.3333333,9.21568627 17,10.0490196 18,10.5 C19,10.9509804 20.3333333,10.8039216 22,10.0588235 L22,20 C22,21.1045695 21.1045695,22 20,22 L3,22 C1.8954305,22 1,21.1045695 1,20 L1,10.5 C2.64383712,10.9627086 3.97717045,10.9627086 5,10.5 Z" id="Rectangle" stroke-linejoin="round"></path>
+                <polygon id="Rectangle" stroke-linejoin="round" points="3.5 0 20 0 23 7 0 7"></polygon>
+                <path d="M3.5,11 C5.43299662,11 7,9.209139 7,7 L0,7 C0,9.209139 1.56700338,11 3.5,11 Z" id="Oval" stroke-linejoin="round"></path>
+                <path d="M11.5,11 C13.4329966,11 15,9.209139 15,7 L8,7 C8,9.209139 9.56700338,11 11.5,11 Z" id="Oval-Copy"></path>
+                <path d="M19.5,11 C21.4329966,11 23,9.209139 23,7 L16,7 C16,9.209139 17.5670034,11 19.5,11 Z" id="Oval-Copy-2" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

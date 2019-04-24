@@ -1,0 +1,15 @@
+[
+	{
+		"compile" : "before",
+		"mode" 	  : "all",
+		"subdir"  : "all",
+		"find"    : "@include('components/')",
+		"replace" : "@include('components/en/')" 
+	},{
+		"compile" : "before",
+		"mode" 	  : "all",
+		"subdir"  : "all",
+		"find"    : "<desc>",
+		"replace" : "HELLO CURATOR" 
+	}
+]

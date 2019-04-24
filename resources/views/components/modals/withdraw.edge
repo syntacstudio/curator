@@ -1,0 +1,76 @@
+<div class="popup" id="withdraw">
+	<div class="popup-parent">
+		<div class="popup-content ">
+			<div class="popup-product account background-white pg-t-40">
+				<h2 class="text-align-center color-dark font-light title ">Tarik Saldo</h2>
+				<button class="button-exit none close-popup absolute top-0 right-0 pointer button-transparent pg-10 border-top-0 border-right-0 border-bottom-2 border-left-2 border-primary ">
+				<img src="assets/images/icons/times.svg" height="18" />
+				</button>
+				<div class="p-15 wd-100-p block  overflow-hidden border-box">
+					<div class="wd-100-p block pg-20">
+						<div class="wd-100-p clear overflow-hidden form-overwrite pg-t-10">
+							<div class="form-title  float-left">
+								<h3 class="text-align-left mg-t-15 color-dark float-left">Pilih Bank</h3>
+								<h3 class="text-align-left mg-t-15 color-dark float-right">:</h3>
+							</div>
+							<div class="validator-component float-left">
+								<select name="" id="" >
+									<option value="bri">BRI</option>
+									<option value="bca">BCA</option>
+									<option value="bni">BNI</option>
+									<option value="mandiri">MANDIRI</option>
+									<option value="niaga">NIAGA</option>
+									<option value="permata">PERMATA</option>
+								</select>
+							</div>
+						</div>
+						
+						<div class="wd-100-p clear overflow-hidden form-overwrite pg-t-10">
+							<div class="form-title  float-left">
+								<h3 class="text-align-left mg-t-15 color-dark float-left">No Rekening</h3>
+								<h3 class="text-align-left mg-t-15 color-dark float-right">:</h3>
+							</div>
+							<div class="validator-component float-left">
+								<input type="text"  class="on-focus" autocomplete="off">
+							</div>
+						</div>
+						<div class="wd-100-p clear overflow-hidden form-overwrite pg-t-10">
+							<div class="form-title  float-left">
+								<h3 class="text-align-left mg-t-15 color-dark float-left">Jumlah</h3>
+								<h3 class="text-align-left mg-t-15 color-dark float-right">:</h3>
+							</div>
+							<div class="validator-component  float-left">
+								<input type="text"  class="on-focus"  autocomplete="off">
+							</div>
+						</div>
+					</div>
+					<div class="wd-100-p flex block justify-content-center  pg-b-20 pg-x-15">
+						<button class="close-popup button button-line-primary feet mg-l-auto color-primary pg-x-35 rounded-50 " type="button">BATAL</button>
+						<button class=" button button-line-primary mg-r-auto color-primary pg-x-30 rounded-50 mg-l-10 open-popup" next="#verify-withdraw" data-target="#popup-loading" interval="500" type="submit">LANJUT</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+<div class="popup" id="verify-withdraw">
+<div class="popup-parent">
+	<div class="popup-content no-close ">
+		<div class="popup-report  background-white rounded-5 overflow-hidden">
+			<div class=" popup-node final  background-white rounded-5">
+				<h1 class="text-align-center title font-light color-black">Mohon Tunggu</h1>
+				<div class="report-list mg-t-10">
+					<p class="text-align-center color-dark">
+						Penarikan saldo sedang berlangsung , Kami akan mengirimkan Notifikasi jika semua proses Sudah selesai. 
+					</p>
+					<div class="wd-100-p flex justify-content-center mg-t-30">
+						<button class="close-popup button button-line-primary rounded-50 pg-x-30 color-primary">TUTUP</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>

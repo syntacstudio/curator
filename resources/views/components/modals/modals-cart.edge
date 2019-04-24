@@ -1,0 +1,59 @@
+<div class="popup" id="popup-cart">
+<div class="popup-parent">
+	<div class="popup-content background-white">
+		<div class="card-popup-search background-white clear border-box flex">
+			<div class="pg-y-5  spacer-container  cart-header-parent">
+				<div class="container pg-t-5 overflow-hidden ">
+					<div class="form-clear form-search-popup">
+						<button class="back close close-popup" type="button">
+						<img src="{{asset('images/icons/left-arrow.svg')}}" alt="">
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="container w-100-p block mt-10 spacer-outline-componet-modal">
+				<ul class="dropdown-menu  list-none w-100-p block cart-colums-modal scrooled-event">
+					@each(i in range(5))
+					<li class="dropdown-list pg-15 hover-bg-white-grey border border-bottom-1 overflow-hidden clear ">
+						<a href="cart.html" class="clear">
+							<div class="clear cart-list">
+								<div class="float-left cart-image">
+									<img src="assets/images/products/ruang_tamu/item-1/uluwatu-front-pink.png" alt="">
+								</div>
+								<div class="float-left cart-detail pl-15">
+									<div class="clear w-100">
+										<div class="title-cart">
+											<h5 class="light color-dark">Nama Produk</h5>
+										</div>
+										<div class="price-cart">
+											<span>
+												<strong class="bold color-primary">{{upperCase(env.PRICE)}} 500.000</strong>
+											</span>
+										</div>
+										<div class="price-value">
+											<span>
+												<strong class="bold color-dark">10</strong>
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</a>
+					</li>
+					@endeach
+				</ul>
+				<div class="pg-x-15 clear pg-y-5 pg-t-15 15">
+					<span class="w-100-p border border-top-1 border-secondary block"></span>
+				</div>
+				<div class="dropdown-footer clear flex">
+					<div class="p-15">
+						<a href="#" class="button mg-b-15 border-box  color-primary font-normal text-decoration-none pg-5 w-100-p block rounded-100 center button-line-primary">LIHAT KERANJANG</a>
+						<a href="#" class="button border-box  color-white font-normal text-decoration-none pg-5 w-100-p block rounded-100 center button-primary">CHECKOUT</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</div>

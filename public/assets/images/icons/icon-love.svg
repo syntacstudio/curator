@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="27px" viewBox="0 0 27 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>icon-love</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-love">
+            <g id="Group">
+                <rect id="Rectangle" x="0" y="0" width="27" height="27"></rect>
+                <path d="M23.2264851,5.76814506 C22.0914841,4.6360494 20.5517726,4 18.946262,4 C17.3407514,4 15.8010399,4.6360494 14.666039,5.76814506 L13.4997057,6.93094688 L12.3333724,5.76814506 C9.96947052,3.41140069 6.13682832,3.41140072 3.77292643,5.76814512 C1.40902455,8.12488953 1.40902452,11.9459272 3.77292637,14.3026716 L4.93925964,15.4654734 L13.4997057,24 L22.0601518,15.4654734 L23.2264851,14.3026716 C24.3620189,13.1711073 25,11.6360577 25,10.0354083 C25,8.43475895 24.3620189,6.89970941 23.2264851,5.76814506 Z" id="Path" stroke="#333333"></path>
+            </g>
+        </g>
+    </g>
+</svg>

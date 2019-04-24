@@ -1,0 +1,9 @@
+[
+	{
+		"route" :  "/",
+		"file"  :  "demo.edge"
+	} , {
+		"route" :  "/api/v1/hello",
+		"file"  :  "demo.json"
+	}
+]
