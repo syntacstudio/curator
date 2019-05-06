@@ -10,7 +10,7 @@ Curator has also used Laravelmix for its bundler assets and already, includes bo
   5.  Happy coding
    
   
-  # Feature:
+  # Features:
  1. Dev Server (inludes host and port) 
 	  - You can set route host and port in .env file at root folder 
  2. Dotenv 
@@ -117,7 +117,7 @@ You can set in app/protector.json
 # Creating And Access Data
  Data file in app/data you need to define your json file in register.json for access data in your webpage  (example was includes)
 
-# creating Api For Dev server
+# Creating Api For Dev server
 Before use api you need to register route api in app/api.json
 after that in app/api/*  you can create new api file (ex : user.json)
 (example was includes )
