@@ -149,6 +149,10 @@ Parameter :
 4. [https://www.npmjs.com/package/live-server](https://www.npmjs.com/package/live-server)
 5. [https://github.com/axios/axios](https://github.com/axios/axios)
 6. [https://getbootstrap.com/](https://getbootstrap.com/)
+
+# Demo
+1. [https://curator-test.herokuapp.com/](https://curator-test.herokuapp.com/)
+
  
  	 
 
