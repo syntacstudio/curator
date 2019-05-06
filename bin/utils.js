@@ -206,16 +206,16 @@ const getasset  = async (path)=>{
   	   recursiveReadSync(getDir(process.env.COMPILE_DIR)).forEach( async (data, key)=>{
   	   	 if(await  protect(data) != null) {
   	   	 	 router.push({
-  	   	 	 	"route":data.replace(getDir(process.env.COMPILE_DIR),"").replace(".edge",".html"),
+  	   	 	 	"route": data.replace(getDir(process.env.COMPILE_DIR),"").replace(".edge",".html").split("\\").join("/"),
   	   	 	 	"file" : data.replace(getDir(process.env.COMPILE_DIR+"/"),"")
   	   	 	 });
   	   	 	 router.push({
-  	   	 	 	"route":data.replace(getDir(process.env.COMPILE_DIR),"").replace(".edge",""),
+  	   	 	 	"route":data.replace(getDir(process.env.COMPILE_DIR),"").replace(".edge","").split("\\").join("/"),
   	   	 	 	"file" : data.replace(getDir(process.env.COMPILE_DIR+"/"),"")
   	   	 	 });
   	   	 	 if (data.includes("index.edge")) {
 	  	   	 	  router.push({
-	  	   	 	 	"route":data.replace(getDir(process.env.COMPILE_DIR),"").replace("index.edge",""),
+	  	   	 	 	"route":data.replace(getDir(process.env.COMPILE_DIR),"").replace("index.edge","").split("\\").join("/"),
 	  	   	 	 	"file":data.replace(getDir(process.env.COMPILE_DIR+"/"),"")
 	  	   	 	 });
   	   	 	 }
