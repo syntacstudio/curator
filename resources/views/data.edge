@@ -1,0 +1,55 @@
+@layout("layouts/app")
+@section("content")
+<div class="container my-5 justify-content-center flex-column d-flex">
+		<div class="w-100">
+		<div class="card ">
+			<div class="card-header bg-primary">
+				<h5 class="mb-0 text-white">Tester User</h5>
+			</div>
+			<div class="card-body">
+				<table class="table table-bordered" >
+					<thead class="bg-primary text-white">
+						<th>No</th>
+						<th>F Name</th>
+						<th>L name</th>
+					</thead>
+					<tbody>
+						@each(item  in data["user"] )
+						<tr>
+							<td>{{$loop.index + 1}}</td>
+							<td>{{item["fname"]}}</td>
+							<td>{{item["lname"]}}</td>
+						</tr>
+						@endeach
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<div class="w-100 mt-4">
+		<div class="card ">
+			<div class="card-header bg-primary">
+				<h5 class="mb-0 text-white">Tester Food</h5>
+			</div>
+			<div class="card-body">
+				<table class="table table-bordered" >
+					<thead class="bg-primary text-white">
+						<th>No</th>
+						<th>F Name</th>
+						<th>L name</th>
+					</thead>
+					<tbody>
+						@each(item  in data["cake"] )
+						<tr>
+							<td>{{$loop.index + 1}}</td>
+							<td>{{item["fname"]}}</td>
+							<td>{{item["lname"]}}</td>
+						</tr>
+						@endeach
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
+@endsection

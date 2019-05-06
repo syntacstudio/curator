@@ -1,0 +1,21 @@
+@layout("layouts/app")
+@section("content")
+<div class="container my-5 justify-content-center d-flex">
+	<ul class="list-group" id="demo">
+	
+	</ul>
+</div>
+<script>
+	(async ()=>{
+	fetch("api/v2/demo").then(async (data)=>{
+		data  = await data.json();
+		var temp  =  " ";
+		await data.forEach(async (item,key)=>{
+			temp =  temp + "<li class='list-group-item px-5'>"+(key+1)+". -|--"+item["name"]+" -|- "+item["age"]+" -|- "+item["address"]+"</li>";
+		})
+		document.getElementById("demo").innerHTML = temp;
+		
+	})
+})()
+</script>
+@endsection

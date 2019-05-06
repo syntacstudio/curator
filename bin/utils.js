@@ -113,6 +113,13 @@ const getAllFile =  async () =>{
 const readDir = async (dir) => {
     return await recursiveReadSync(dir);
 }
+// add socket 
+const addSocket  = (file)=> {
+    var tempme  =  `<script type="text/javascript" src="/socket/autoload.js" defer ></script>\n</html>`
+    file  =  process.env.AUTOLOAD == "true" ? file.replace("</html>",tempme) : file;
+   // console.log(file)
+    return file;
+}
 //  compiling data
 const compile = async (file, name) => {
     file = await replace(file, "before", name);
@@ -128,8 +135,7 @@ const compile = async (file, name) => {
         }) 
     }
     file = await replace(file, "after", name);
-    var tempme  =  `<script type="text/javascript" src="/socket/autoload.js" defer ></script>\n</html>`
-    file  =  process.env.AUTOLOAD == "true" ? file.replace("</html>",tempme) : file;
+ 
     return file;
 }
 /**
@@ -159,7 +165,7 @@ const resFile =  async (path)=>{
 	asdata  = null;
 	for (var i = 0;  i < route.length; ++i) {
 		if (route[i]["route"] === path.toLowerCase()) {
-			return  {"status":200,"data": await compile ( await getFile(getDir(process.env.COMPILE_DIR+"/"+route[i]["file"])),getDir(process.env.COMPILE_DIR+"/"+route[i]["file"]))}
+			return  {"status":200,"data": addSocket(await compile ( await getFile(getDir(process.env.COMPILE_DIR+"/"+route[i]["file"])),getDir(process.env.COMPILE_DIR+"/"+route[i]["file"])))}
 		}
 	}
 	return await createErr();
@@ -182,7 +188,7 @@ const getSocket = async  (path)=> {
 
 // create 404 
 const createErr =  async (url)=>{
-  return {"status":404,"data":await edge.render("404",{url:url,env:process.env})};
+  return {"status":404,"data":addSocket(await edge.render("404",{url:url,env:process.env}))};
 }
 // rendering assets 
 const getasset  = async (path)=>{

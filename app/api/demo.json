@@ -1,38 +1,19 @@
 [
 	{
-		"name" : "hai"
+		"name":"Jhon Doe",
+		"age":"120",
+		"address":"Love earth no 190"
 	},{
-		"name" : "demo"
+		"name":"Jhon Doe",
+		"age":"120",
+		"address":"Love earth no 190"
 	},{
-		"name" : "demo"
+		"name":"Jhon Doe",
+		"age":"120",
+		"address":"Love earth no 190"
 	},{
-		"name" : "demo"
-	},{
-		"name" : "demo"
-	},{
-		"name" : "demo"
-	},{
-		"name" : "demo"
-	},{
-		"name" : "demo"
-	},{
-		"name" : "demo"
-	},{
-		"name" : "demo"
-	},{
-		"name" : "demo"
-	},{
-		"name" : "demo"
-	},{
-		"name" : "demo"
-	},{
-		"name" : "demo"
-	},{
-		"name" : "demo"
-	},{
-		"name" : "demo"
-	},{
-		"name" : "demo"
+		"name":"Jhon Doe",
+		"age":"120",
+		"address":"Love earth no 190"
 	}
-	
 ]

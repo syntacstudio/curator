@@ -11,5 +11,11 @@
 		"subdir"  : "all",
 		"find"    : "<desc>",
 		"replace" : "HELLO CURATOR" 
+	},{
+		"compile" : "after",
+		"mode" 	  : "all",
+		"subdir"  : "all",
+		"find"    : "<desc>",
+		"replace" : "HELLO CURATOR" 
 	}
 ]

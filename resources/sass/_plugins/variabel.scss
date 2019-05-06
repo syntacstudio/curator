@@ -1,30 +1,28 @@
-/**
-** this for first setup
-**/
-@import 'function';
-/**
-** setup fonts
-**/
-/** 
-** raleway
-**/
-/*open sans */
+// Body
+$body-bg: #f8fafc;
 
-:root {
-  --body-color :  #fdf3ee;
-}
-$colors: (
-  "primary"      : #C18951,
-  "white"        : #fff,
-  "secondary"    : #F6F6F6,
-  "transparent"  : rgba(0,0,0,0),
-  "grey"         : #ECECEC,
-  "white-dark"   : #999999,
-  "white-grey"   : #FBFBFB,
-  "dark"         : #555555,
-  "black"        : #000,
-  "darken"       : #333, 
-  "dark-c"       :#9A6836,
-  "white-footer" :#D9D9D9,
-  "fail"         :#FA3E3E,
+// Typography
+$font-family-sans-serif: 'Open Sans', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+//
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66D9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #58b1ff;
+
+$theme-colors: (
+	"primary": $cyan,
+	"blue":#2B44FF,
+	"white":#fff,
 );
+
+@import '~bootstrap/scss/bootstrap';
