@@ -1,4 +1,4 @@
-const env = require('dotenv').config();
+    const env = require('dotenv').config();
 const edge = require('edge.js');
 /**
 ** trying helpers contents
@@ -9,7 +9,10 @@ let public_active = [];
 ** edge register assets command 
 **/
 edge.global('asset', function(file) {
-    return "assets/"+file;
+    if (process.env.APP_MODE == "development") {
+        return "assets/"+file;
+    }
+    return "/assets/"+file; 
 });
 /**
 ** set title
